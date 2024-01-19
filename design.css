@@ -1,0 +1,588 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Secular+One&display=swap');
+
+body{
+  font-family: 'Inter', sans-serif;
+  font-family: 'Secular One', sans-serif;
+}
+*{
+   margin: 0;
+   padding: 0;
+   list-style: none;
+   text-decoration: none;
+}
+
+.container{
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+button{
+  color: #FFF;
+text-align: center;
+font-size: 16px;
+font-family: Inter;
+font-weight: 500;
+line-height: 24px;
+padding: 10px 27px;
+border-radius: 5px;
+background: #1361F5;
+border: none;
+box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+cursor: pointer;
+}
+img{
+  width: 100%;
+}
+
+/* ------ header------- */
+
+.header .container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+.logo h1{
+  color: #1D1D1D;
+text-align: center;
+font-size: 24px;
+font-family: Secular One;
+letter-spacing: -0.293px;
+}
+.main-menu ul{
+  display: flex;
+}
+
+.main-menu ul li a{
+  display: block;
+  color: #1D1D1D;
+font-size: 16px;
+font-family: Inter;
+font-weight: 500;
+line-height: 26px;
+padding: 20px;
+
+}
+.header-btn a{
+  color: #094BCA;
+  text-align: center;
+  font-size: 16px;
+  font-family: Inter;
+  font-weight: 600;
+  line-height: 24px;
+  padding: 10px 27px;
+  display: inline;
+}
+.header-btn > button {
+  color: #FFF;
+text-align: center;
+font-size: 16px;
+font-family: Inter;
+font-weight: 500;
+line-height: 24px;
+padding: 10px 27px;
+border-radius: 5px;
+background: #1361F5;
+border: none;
+}
+
+
+/* main section */
+
+.main{
+  
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 55px;
+  margin: 50px 0;
+}
+.main-text h1{
+  color: #1D1D1D;
+font-size: 48px;
+font-family: Inter;
+font-weight: 700;
+line-height: 50px;
+letter-spacing: -1px;
+}
+
+.main-text p{
+  color: #223140;
+font-size: 18px;
+font-family: Inter;
+line-height: 32px;
+letter-spacing: -1px;
+padding: 35px 0;
+}
+
+.main-text .teo{
+  background: #FFF;
+text-align: center;
+font-size: 16px;
+font-family: Inter;
+font-weight: 500;
+line-height: 24px;
+border-radius: 5px;
+color: #1361F5;
+border: 1px solid #E0E0E0;
+margin-left: 10px;
+}
+.main-img img{
+  width: 100%;
+  
+}
+
+/* benefits */
+
+
+.benefits{
+  display: flex;
+  gap: 20px;
+  margin: 90px 0; 
+}
+.benefits .card-wrapper{
+  width: 250px;
+height: 120px;
+border-radius: 5px;
+padding: 15px;
+background: #FFF;
+box-shadow: 1px 2px 15px 0px rgba(0, 0, 0, 0.15);
+
+}
+.card-wrapper .card{
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-direction: column;
+}
+.card h5{
+  color: #223140;
+  font-size: 18px;
+  font-family: Inter;
+  font-weight: 600;
+  line-height: 24px;
+}
+.benefits .card p {
+  color: #535558;
+font-size: 16px;
+font-family: Inter;
+line-height: 22px;
+  padding: 8px 0;
+}
+.benefits .icon{
+  
+  width: 36px;
+  height: 36px;
+  border-radius: 36px;
+  background: rgba(236, 178, 45, 0.10); 
+  display: inline-block;
+  text-align: center;
+}
+.icon > div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 36px;
+}
+.icon img{
+  width: 24px;
+  height: 24px;
+}
+
+
+
+
+/* feature section */
+.sub-section1{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 109px;
+  margin: 60px 0;
+}
+ .features-text h1{
+  color: #1D1D1D;
+text-align: center;
+font-size: 32px;
+font-family: Inter;
+font-weight: 700;
+line-height: 50px;
+letter-spacing: -1px;
+}
+ .features-text p{
+  color: #223140;
+  text-align: center;
+  font-size: 18px;
+  font-family: Inter;
+  line-height: 32px;
+  letter-spacing: -1px;
+  padding: 35px 0;
+  width: 800px;
+  margin: auto;
+}
+
+ .sub-section1 .text h2{
+  color: #1D1D1D;
+font-size: 32px;
+font-family: Inter;
+font-weight: 700;
+line-height: 50px;
+letter-spacing: -1px;
+}
+ .sub-section1 .text h4{
+  color: #094BCA;
+  font-size: 24px;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 50px;
+  letter-spacing: -1px;
+}
+  .sub-section1 .text p{
+  color: #223140;
+  font-size: 18px;
+  font-family: Inter;
+  line-height: 32px;
+  letter-spacing: -1px;
+  padding: 35px 0;
+}
+.img img{
+  width: 100%;
+  height: 100%;
+}
+
+/* inregratin  */
+
+.integration{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
+.integration .text h1{
+  color: #000;
+  font-size: 32px;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 50px;
+  letter-spacing: -1px;
+}
+.integration .text p {
+  color: #223140;
+  font-size: 18px;
+  font-family: Inter;
+  line-height: 32px;
+  letter-spacing: -1px;
+}
+
+/* customer */
+
+.customer-text h1{
+  color: #1D1D1D;
+  text-align: center;
+  font-size: 32px;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 50px;
+  letter-spacing: -1px;
+}
+.customer-text p{
+  color: #223140;
+  text-align: center;
+  font-size: 18px;
+  font-family: Inter;
+  line-height: 32px;
+  letter-spacing: -1px;
+  padding: 30px 0;
+}
+
+.testi-card {
+  display: flex;
+  
+  flex-direction: column;
+   
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+background: #FFF;
+box-shadow: 1px 2px 15px 0px rgba(0, 0, 0, 0.15);
+}
+.testimonial{
+  display: flex;
+  gap: 20px;
+   
+  margin-top: 100px;
+}
+.testi-img {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  margin-top: -50px;
+}
+
+.testi-text p{
+  color: #535558;
+text-align: center;
+font-size: 14px;
+font-family: ITF Devanagari Marathi;
+font-style: normal;
+font-weight: 400;
+line-height: 22px;
+}
+.testi-text h2 {
+  color: #D9D9D9;
+text-align: center;
+font-size: 24px;
+font-family: Secular One;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: -0.293px;
+padding: 35px;
+}
+.testi-text h5{
+  color: #223140;
+  font-size: 18px;
+  font-family: Inter;
+  font-style: normal;
+  text-align: center;
+  font-weight: 600;
+  line-height: 24px;
+}
+.testi-text{
+  padding: 30px;
+}
+
+
+
+
+/* ================= award ===================*/
+.awards{
+  display: flex;
+  gap: 90px;
+  margin: 90px 0;
+}
+.awards .card h1{
+  color: #094BCA;
+text-align: center;
+font-size: 32px;
+font-family: Inter;
+font-weight: 700;
+line-height: 50px;
+letter-spacing: -1px;
+}
+.awards .card p {
+  color: #223140;
+  text-align: center;
+  font-size: 18px;
+  font-family: Inter;
+  line-height: 32px;
+  letter-spacing: -1px;
+}
+
+/* ====================cta section ===========================*/
+.cta h1{
+color: #000;
+text-align: center;
+font-size: 32px;
+font-family: Inter;
+font-weight: 700;
+line-height: 50px;
+letter-spacing: -1px;
+
+}
+
+.cta{
+  background: rgba(217, 217, 217, 0.10);
+   
+  padding: 60px;
+   
+}
+
+.cta p{
+  color: #223140;
+text-align: center;
+font-size: 18px;
+font-family: Inter;
+line-height: 32px;
+letter-spacing: -1px;
+padding: 35px 0;
+}
+.cta .btn {
+  text-align: center;
+  margin-top: 30px;
+   
+}
+
+
+
+
+/* resourse */
+
+
+
+
+.resourse .card-wrapper {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 20px;
+  
+}
+.resourse .card span p  {
+  color: #004CE6;
+   
+  padding: 3px 8px;
+  border-radius: 2px;
+   
+background: rgba(19, 97, 245, 0.10);
+color: var(--blue-base, #004CE6);
+text-align: center;
+font-size: 12px;
+font-family: Inter;
+font-weight: 500;
+
+}
+.resourse .card span{
+  margin: 10px 0 10px 20px;
+  display: flex;
+  gap: 10px;
+}
+.card-wrapper .card h1{
+  color: #223140;
+font-size: 18px;
+font-family: Inter;
+font-weight: 500;
+line-height: 25px;
+padding: 10px 5px 10px 20px;
+}
+
+.card-wrapper .card a{
+color: #094BCA;
+
+font-size: 16px;
+font-family: Inter;
+font-weight: 500;
+line-height: 24px;
+padding: 10px 0px 10px 20px;
+}
+.resourse > h1{
+  color: #1D1D1D;
+text-align: center;
+font-size: 32px;
+font-family: Inter;
+font-weight: 700;
+line-height: 50px;
+letter-spacing: -1px;
+margin: 90px 0;
+}
+.resourse {
+  margin-bottom: 60px;
+}
+.resourse .card-wrapper .card{
+  background: #FFF;
+  border-radius: 5px;
+box-shadow: 1px 2px 15px 0px rgba(0, 0, 0, 0.15);
+}
+/* footer */
+
+.footer{
+  display: grid;
+  grid-template-columns: repeat(12,1fr);
+  margin: 120px 0 50px;
+}
+.footer h2{
+  font-size: 25px;
+  color: black;
+}
+.col-1{
+  grid-column: 1 / span 3 ;
+}
+.col-2{
+  grid-column: 5 / span 2;
+}
+.col-3{
+  grid-column: 7 / span 2;
+}
+.col-4{
+  grid-column: 9/ span 4;
+}
+.bottom{
+  grid-column: 1 / -1;
+  text-align: center;
+  background-color: teal;
+  color: pink;
+}
+ 
+a {
+  display: block;
+  text-decoration: none;
+  color: rgb(177, 176, 176);
+  padding: 3px 0;
+}
+.col-1 > i {
+  font-size: 25px;
+  padding: 0 10px;
+  margin-bottom: 10px;
+}
+
+.blog-card {
+  display: flex;
+  border-radius: 10px;
+background: #FFF;
+box-shadow: 1px 2px 15px 0px rgba(0, 0, 0, 0.15);
+margin: 20px 0;
+}
+.blog-card .img{
+  width: 105px;
+height: 105px;;
+}
+.blog-card .img img{
+  width: 105px;
+}
+.blog-card .text p{
+  color: #535558;
+font-size: 14px;
+font-family: Inter;
+line-height: 22px;
+ 
+}
+.blog-card .text{
+  padding: 14px;
+  box-sizing: border-box;
+}
+.blog-card .text a{
+  color: #094BCA;
+font-size: 16px;
+font-family: Inter;
+font-weight: 500;
+line-height: 24px;
+}
+
+.footer h2{
+  color: #1D1D1D;
+font-size: 18px;
+font-family: Inter;
+font-weight: 500;
+line-height: 28px;
+margin-bottom: 32px;
+}
+.footer a{
+color: #535558;
+font-size: 16px;
+font-family: Inter;
+line-height: 26px;
+}
+.footer  .col-1 h1{
+color: #1D1D1D;
+font-size: 24px;
+font-family: Secular One;
+letter-spacing: -0.293px;
+margin-bottom: 32px;
+}
+
+.footer .col-1 p{
+color: #535558;
+font-size: 16px;
+font-family: Inter;
+line-height: 26px;
+}
+
+
+
